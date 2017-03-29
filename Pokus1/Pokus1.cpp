@@ -131,11 +131,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             // Parse the menu selections:
             switch (wmId)
             {
-			case ID_SOUBOR_OTEVRITF:	//otevøít soubor
+			case IDM_SOUBOR_OTEVRITF:	//otevøít soubor
 				break;
-			case ID_SOUBOR_OTEVRITD:	//otevøít adresáø
+			case IDM_SOUBOR_OTEVRITD:	//otevøít adresáø
 				break;
-			case ID_SOUBOR_ULOZIT:
+			case IDM_SOUBOR_ULOZIT:
 				break;
 			case IDM_ABOUT:
 				DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, About);
